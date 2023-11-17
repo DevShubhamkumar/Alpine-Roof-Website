@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Roof</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .nav {
+            background-color: #333;
+            color: #eb8e8e;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            height: 50px;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bolder;
+            color: #ff2f00;
+            text-shadow: 0 0 20px rgb(0, 0, 0);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .nav-element {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-element li {
+            margin: 0 10px;
+            transition: .3s ease-in-out;
+        }
+
+        .nav-element a:hover {
+            animation: ani 1s infinite;
+        }
+
+        @keyframes ani {
+            10% {
+                box-shadow: 0 0 10px #f11f1f;
+            }
+            100% {
+                box-shadow: 0 0 0 #D80E0E;
+            }
+        }
+
+        .nav-element a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s;
+            border: 1px solid #e72727;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .nav-element a:hover {
+            color: #ff2f00;
+
+        }
+
+        .container1 {
+            background-image: url('background.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            min-height: 700px;
+        }
+
+        .head h1 {
+            font-size: 45px;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: #ff2f00;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 10px;
+            text-shadow: 0 0 3px #28282a;
+            box-shadow: 0 0 5px rgb(165, 151, 105);
+        }
+
+        .para {
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 40px;
+            font-size: 20px;
+            line-height: 1.6;
+            color: hsl(0, 100%, 92%);
+            text-shadow: 0 0 5px rgb(0, 0, 0);
+            box-shadow: 0 0 5px rgb(114, 111, 100);
+            margin-top: 300px;
+        }
+
+      
+
+.about_us{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    max-width: 90%;
+    margin-left: 5%;
+    background-color:rgba(0, 0, 0, 0.9) ;
+    color: #ff2f00;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    
+    
+    
+
+    
+
+}
+.paraa{
+    text-align: left;
+    
+    font-size: 20px;
+    color: hsl(0, 100%, 92%);
+
+    padding: 10px;
+    text-shadow: 0 0 3px black;
+}
+
+
+
+/* Add styles for the map and contact form layout */
+h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #ff2f00;
+    margin-bottom: 20px;
+    text-shadow:0 0 6px #ffffff;
+    box-shadow: 0 0 10px rgb(65, 38, 38);
+    text-align: center;
+   
+}
+.contact-map {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: left;
+    max-width: 100%;
+
+}
+
+.map {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin: 20px 0;
+    padding-right: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="subject"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #f76e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff2f00;
+}
+
+/* ------- */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+ h3{
+    text-align: center;
+    color: #ff2f00;
+    font-size: 30px;
+    
+
+}
+
+.footer p {
+    margin: 5px;
+    color: hsl(0, 100%, 92%)
+}
+
+
+.footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">Alpine Roof</div>
+        <ul class="nav-element">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Sign In</a></li>
+        </ul>
+    </div>
+
+    <div class="container1">
+        <div class="head">
+            <h1>Welcome to Alpine Roof: Where Adventure Meets Comfort!</h1>
+        </div>
+        <div class="para">
+            <p>
+                At Alpine Roof, we invite you to embark on a one-of-a-kind adventure. Nestled in the heart of stunning mountain landscapes, our car roof camping experiences offer the perfect blend of outdoor thrills and cozy comfort. Explore the great outdoors while enjoying the convenience of car roof camping – a unique way to immerse yourself in nature. Whether you're an outdoor enthusiast seeking breathtaking vistas or a family in search of a memorable getaway, our handpicked locations promise an unforgettable journey. Start your Alpine Roof adventure today and discover the allure of the mountains, one rooftop at a time!
+            </p>
+        </div>
+    </div>
+  <div class="about_us"><h1>About Us</h1>
+    
+   <div class="paraa">
+    <p>
+        At Alpine Roof, we are passionate about creating memorable outdoor experiences that bring you closer to nature. Our mission is to provide you with the perfect blend of adventure and comfort in the heart of stunning mountain landscapes.
+    </p>
+    <p>
+        We understand the allure of the great outdoors and the desire for a unique way to immerse yourself in nature. That's why we offer car roof camping experiences that allow you to explore the breathtaking vistas and serene wilderness while enjoying the convenience and coziness of our camping setups.
+    </p>
+    <p>
+        Whether you're an outdoor enthusiast seeking thrilling adventures or a family in search of a memorable getaway, we have handpicked locations that promise an unforgettable journey. Our team is dedicated to ensuring that your Alpine Roof adventure is safe, comfortable, and filled with the magic of the mountains.
+    </p>
+    <p>
+        Join us on a journey to discover the beauty, tranquility, and adventure that the mountains have to offer. At Alpine Roof, we're all about turning your dreams of mountain exploration into a reality, one rooftop at a time.
+    </p>
+</div>
+</div>
+
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-map">
+            <div class="map">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53710.22758099273!2d74.8617728!3d32.7155712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1697622757357!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-form">
+                <form action="submit_contact_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name"placeholder="max limit 15" name="name" required onkeyup="table()" maxlength="15">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <div class="footer">
+        <h3>@Copyright by Shubham Kumar</h3>
+        <p>Alpine Roof - Where Adventure Meets Comfort</p>
+        <p>Contact: your@email.com</p>
+        <p >Address: jammu mountains near jskdfja india </p>
+        <p>Phone: +91 84834848388</p>
+    </div>
+    <script>
+     
+        function table() {
+    let a = document.getElementById('name').value;
+    let len = a.length;
+
+    if(len>=12 && len<=15) {
+        document.getElementById('name').style.color = 'red';
+        document.getElementById('name').style.borderColor = 'red';
+    }
+    else{
+        document.getElementById('name').style.color = 'black';
+        document.getElementById('name').style.borderColor = 'black';
+    }
+}
+
+
+
+
+    </script>
+</body>
+</html>
